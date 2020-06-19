@@ -18,7 +18,7 @@ public class BDConexcion {
     public static void conectar() {
         try {
             
-            con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/UnidadEducativa","postgres","root");
+            con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/UnidadEducativa","postgres","cuenca");
             if (con != null) {
                 System.out.println("Conexión exitosa");
             } else {
